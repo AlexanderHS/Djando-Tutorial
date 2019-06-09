@@ -4,11 +4,11 @@
     </head>
     <body>
         <div>
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="/">AHS's django Blog</a></h1>
         </div>
         {% for post in posts %}
           <div>
-            <p>published: {{ post.published_date }}</p>
+            <p><em>published: {{ post.published_date }}</em></p>
             <h2><a href="">{{ post.title }}</a></h2>
             <p>{{ post.text|linebreaksbr }}</p>
           </div>
