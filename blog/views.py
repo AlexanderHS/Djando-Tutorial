@@ -1,3 +1,11 @@
 from django.shortcuts import render
+'''
+This is a view.
+'''
 
-# Create your views here.
+
+def post_list(request):
+    """
+    sdfgsdfg
+    """
+    return render(request, 'blog/post_list.html', {})
